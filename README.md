@@ -2,8 +2,8 @@
 
 42sh is a 42 school project whose goal is to make a POSIX shell. But the most important aspect of this project was to work on our ability to contribute to a big project in a group.
 
-We deviated from a base of mine but the final project was the result of the contribution of [Mohammed Merabet](https://github.com/mmerabet42), [Sebastien Le Rest](https://github.com/SLeRest), [Gaetan Dufay](https://github.com/gdufay) and me [Jeremi Raymond](https://github.com/jraymond96).
-Thanks to that abstraction, it was easier to get the project at its full potential. For example adding features that were not mandatory, like shell scripting or even job control.
+We deviated from a base of mine but the final project was the result of the contribution of [Mohammed Merabet](https://github.com/mmerabet42), [Sebastien Le Rest](https://github.com/SLeRest), [Gaetan Dufay](https://github.com/gdufay) and me [Jeremi Raymond](https://github.com/jraymond96). We each worked on different aspect of the project but my main duty was to make all the "job control". (for include background and foreground aspect in our shell)
+ 
 
 Thanks to our hard work we got a final grade of *121* !
 
@@ -46,14 +46,17 @@ Thanks to our hard work we got a final grade of *121* !
 * The `.42shrc` file in the home directory, that is executed at the beginning of the shell.
 * `-c` option to give a command in parameter `./42sh -c 'echo Hello World'`.
 
+## SHORTCUT
+
+|COMMAND|EFFECT|
+| --- | --- |
+| shift + ^/v | move line by line |
 # Core Team
 
-* [Jeremi Raymond](https://github.com/jraymond96), (rigorous/jobs_control)
-* [Sebastien Le Rest](https://github.com/SLeRest), (bug finder)
-* [Gaetan Dufay](https://github.com/gdufay), (stagiaire)
-* [Mohammed Merabet](https://github.com/mmerabet42), (AST idea/creation)
-
-
+* [Jeremi Raymond](https://github.com/jraymond96), (The rigorous)
+* [Sebastien Le Rest](https://github.com/SLeRest), (The bug finder)
+* [Gaetan Dufay](https://github.com/gdufay), (The stagiaire)
+* [Mohammed Merabet](https://github.com/mmerabet42), (The AST creator)
 
 
 <p align="center">
