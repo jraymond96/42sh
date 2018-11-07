@@ -50,7 +50,15 @@ Thanks to our hard work we got a final grade of *121* !
 
 |COMMAND|EFFECT|
 | --- | --- |
-| shift + ^/v | move line by line |
+| shift + ^ / v | move line by line |
+| shift + < / > | move word by word |
+| ctrl + a | move to start of command |
+| ctrl + e | move to end of command |
+| < / > | move cursor |
+| ^ / v | move in history |
+| ctrl + d | line empty exit 42sh else delete letter under cursor |
+| ctrl + c | kill executable on foreground else ask new prompt |
+| ctrl + z | suspend executable on foreground (send in background)|
 # Core Team
 
 * [Jeremi Raymond](https://github.com/jraymond96), (The rigorous)
